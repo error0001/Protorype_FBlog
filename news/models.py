@@ -1,5 +1,5 @@
 from django.db import models
-#если создать класс, то автоматически появятся данные в бд
+#if the class is creating, automaticly will create base data this
 class Articles(models.Model):
   title = models.CharField(max_length = 120)
   post = models.TextField()
